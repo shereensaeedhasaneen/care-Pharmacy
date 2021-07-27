@@ -273,7 +273,7 @@ section
 }
 .button_1
 {
-	background: #fd556d;
+	background: #7555a2;
 	border: solid 2px transparent;
 }
 .button_1 a
@@ -283,24 +283,24 @@ section
 .button_1:hover
 {
 	background: transparent;
-	border: solid 2px #fd556d;
+	border: solid 2px #7555a2;
 }
 .button_1:hover a
 {
-	color: #fd556d;
+	color: #7555a2;
 }
 .button_2
 {
 	background: transparent;
-	border: solid 2px #57ccc3;
+	border: solid 2px #7555a2;
 }
 .button_2 a
 {
-	color: #57ccc3;
+	color: #7555a2;
 }
 .button_2:hover
 {
-	background: #57ccc3;
+	background: #7555a2;
 }
 .button_2:hover a
 {
@@ -356,7 +356,7 @@ section
 }
 .logo a > div:first-child span
 {
-	color: #57ccc3;
+	color: #7555a2;
 	margin-left: 7px;
 }
 .logo a > div:last-child
@@ -381,7 +381,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #57ccc3;
+	color: #7555a2;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -399,7 +399,7 @@ section
 {
 	height: 46px;
 	border-radius: 20px;
-	background: #57ccc3;
+	background: #7555a2;
 	padding-left: 40px;
 	padding-right: 36px;
 	line-height: 46px;
@@ -430,7 +430,7 @@ section
 }
 .social ul li:hover
 {
-	background: #57ccc3;
+	background: #7555a2;
 }
 .social ul li:hover a i
 {
@@ -495,7 +495,7 @@ section
 	right: -350px;
 	width: 350px;
 	height: 100vh;
-	background: #57ccc3;
+	background: #7555a2;
 	z-index: 102;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -654,7 +654,7 @@ section
 	font-size: 60px;
 	line-height: 1.2;
 	font-weight: 500;
-	color: #404040;
+	color: #7555a2;
 }
 .home_text
 {
@@ -695,7 +695,7 @@ section
 	left: 9px;
 	width: 90px;
 	height: 118px;
-	background-color: #57ccc3;
+	background-color: #7555a2;
 	border-radius: 40px;
 	border: solid 2px #eaf2f5;
 }
@@ -736,7 +736,7 @@ section
 }
 .blog_post_title a:hover
 {
-	color: #57ccc3;
+	color: #7555a2;
 }
 .blog_post_info
 {
@@ -755,11 +755,11 @@ section
 }
 .blog_post_info ul li a
 {
-	color: #57ccc3;
+	color:  #282827;
 }
 .blog_post_info ul li a:hover
 {
-	color: #fd556d;
+	color: #96c948;
 }
 .blog_post_text
 {
@@ -790,7 +790,7 @@ section
 .page_nav ul li.active a,
 .page_nav ul li a:hover
 {
-	color: #57ccc3;
+	color: #96c948;
 }
 
 /*********************************
@@ -866,7 +866,7 @@ section
 	width: 167px;
 	height: 46px;
 	border-radius: 19px;
-	background: #fd556d;
+	background: #282827;
 	cursor: pointer;
 	border: none;
 	outline: none;
@@ -969,7 +969,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color: #57ccc3;
+	color: #96c948;
 }
 .location_text
 {
@@ -1024,5 +1024,5 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #57ccc3;
+	color: #7555a2;
 }
