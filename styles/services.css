@@ -402,7 +402,7 @@ section
 {
 	height: 46px;
 	border-radius: 20px;
-	background: #57ccc3;
+	background: #96c948;
 	padding-left: 40px;
 	padding-right: 36px;
 	line-height: 46px;
@@ -433,7 +433,7 @@ section
 }
 .social ul li:hover
 {
-	background: #57ccc3;
+	background: #7555a2;
 }
 .social ul li:hover a i
 {
