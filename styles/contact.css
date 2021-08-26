@@ -114,8 +114,8 @@ p a:hover::after
 }
 ::selection
 {
-	background: #7555a2;
-	color: #FFFFFF;
+	background: #F5b222;
+	color: #404040;
 }
 p::selection
 {
@@ -273,7 +273,7 @@ section
 }
 .button_1
 {
-	background: #7555a2;
+	background: #18207b;
 	border: solid 2px transparent;
 }
 .button_1 a
@@ -283,11 +283,11 @@ section
 .button_1:hover
 {
 	background: transparent;
-	border: solid 2px #7555a2;
+	border: solid 2px #18207b;
 }
 .button_1:hover a
 {
-	color: #7555a2;
+	color: #18207b;
 }
 .button_2
 {
@@ -338,13 +338,13 @@ section
 .header_content
 {
 	width: 100%;
-	height: 76px;
+	height: 120px;
 	padding-left: 100px;
 	padding-right: 102px;
 }
 .header.scrolled .header_content
 {
-	height: 75px;
+	height: 120px;
 	box-shadow: 0px 5px 15px rgba(87,204,195,0.15);
 }
 .logo a > div:first-child
@@ -381,7 +381,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #7555a2;
+	color: #F5b222;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -399,7 +399,7 @@ section
 {
 	height: 46px;
 	border-radius: 20px;
-	background: #96c948;
+	background: #F5b222;
 	padding-left: 40px;
 	padding-right: 36px;
 	line-height: 46px;
@@ -430,7 +430,7 @@ section
 }
 .social ul li:hover
 {
-	background: #7555a2;
+	background: #18207b;
 }
 .social ul li:hover a i
 {
@@ -484,6 +484,12 @@ section
 	padding-right: 7px;
 }
 
+.logok{
+	height: 150px;
+	width: 200px;
+	padding: 5px 0 12px 0;
+	margin-bottom: 3px;
+}
 /*********************************
 4. Menu
 *********************************/
@@ -495,7 +501,7 @@ section
 	right: -350px;
 	width: 350px;
 	height: 100vh;
-	background: #57ccc3;
+	background: #464D95;
 	z-index: 102;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -567,7 +573,7 @@ section
 }
 .menu_close:hover div
 {
-    background: #1befc5;
+    background: #F5b222;
 }
 .menu_nav
 {
@@ -585,7 +591,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #1befc5;
+	color: #F5b222;
 }
 .menu_social
 {
@@ -749,7 +755,7 @@ section
 .contact_input:focus,
 .contact_input:hover
 {
-	border: solid 2px #96c948;
+	border: solid 2px #F5b222;
 }
 .contact_input::-webkit-input-placeholder
 {
@@ -800,8 +806,8 @@ section
 .contact_button:hover
 {
 	background: transparent;
-	border: solid 2px #7555a2;
-	color: #7555a2;
+	border: solid 2px #18207b;
+	color: #18207b;
 }
 .contact_content_title
 {
@@ -842,7 +848,7 @@ section
 	font-weight: 500;
 	line-height: 48px;
 	color: #fff;
-	background: #96c948;
+	background: #F5b222;
 	white-space: nowrap;
 }
 .contact_info
@@ -858,7 +864,7 @@ section
 	width: 90px;
 	font-size: 18px;
 	font-weight: 600;
-	color: #7555a2;
+	color: #18207b;
 	line-height: 1.34;
 }
 .contact_info ul li > div:last-of-type
@@ -889,7 +895,7 @@ section
 }
 .contact_social ul li a i:hover
 {
-	color: #7555a2;
+	color: #18207b;
 }
 .google_map_row
 {
@@ -1059,7 +1065,7 @@ section
 }
 .footer_contact
 {
-	padding-top: 40px;
+	padding-top: 52%;
 }
 .contact_list
 {
@@ -1077,7 +1083,7 @@ section
 }
 .footer_location
 {
-	padding-top: 40px;
+	padding-top: 52%;
 }
 .locations_list
 {
@@ -1096,7 +1102,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color: #96c948;
+	color: #F5b222;
 }
 .location_text
 {
@@ -1151,5 +1157,57 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #96c948;
+	color: #F5b222;
+}
+
+footer .logok{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+}
+.col-lg-3 .opening_hours{
+	margin-top: 52%;
+}
+/************ media query ****************/
+@media (min-width:1200px) and (max-width:1218px) {
+	header .button_1 {
+	display: none !important;
+	}
+}
+
+@media (min-width:1200px) and (max-width:1323px) {
+	header .button_1 a{
+		display: inline-block;
+		padding-left: 2px ;
+		padding-right: 2px ;
+		font-size: 13px;
+	}
+}
+
+@media (min-width:1441px) and (max-width:1535px) {
+	header .button_1 a{
+		padding-left: 2px ;
+		padding-right: 2px ;
+		font-size: 10px;
+	}
+}
+
+@media (min-width:1441px) and (max-width:1450px){
+	header .header_phone {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media (max-width:1200px) {
+	.home_container{
+		left: 0% !important;
+	}
+}
+
+@media (max-width:590px) {
+	.home_slider_custom_dot{
+		display: flex;
+		justify-content: center !important;
+	}
 }

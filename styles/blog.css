@@ -114,8 +114,8 @@ p a:hover::after
 }
 ::selection
 {
-	background: rgba(87,204,195,0.75);
-	color: #FFFFFF;
+	background: #f5b222;
+	color: #353535;
 }
 p::selection
 {
@@ -273,7 +273,7 @@ section
 }
 .button_1
 {
-	background: #7555a2;
+	background: #18207b;
 	border: solid 2px transparent;
 }
 .button_1 a
@@ -283,24 +283,24 @@ section
 .button_1:hover
 {
 	background: transparent;
-	border: solid 2px #7555a2;
+	border: solid 2px #18207b;
 }
 .button_1:hover a
 {
-	color: #7555a2;
+	color: #18207b;
 }
 .button_2
 {
 	background: transparent;
-	border: solid 2px #7555a2;
+	border: solid 2px #18207b;
 }
 .button_2 a
 {
-	color: #7555a2;
+	color: #18207b;
 }
 .button_2:hover
 {
-	background: #7555a2;
+	background: #18207b;
 }
 .button_2:hover a
 {
@@ -338,13 +338,13 @@ section
 .header_content
 {
 	width: 100%;
-	height: 117px;
+	height: 120px;
 	padding-left: 100px;
 	padding-right: 102px;
 }
 .header.scrolled .header_content
 {
-	height: 75px;
+	height: 120px;
 	box-shadow: 0px 5px 15px rgba(87,204,195,0.15);
 }
 .logo a > div:first-child
@@ -356,7 +356,7 @@ section
 }
 .logo a > div:first-child span
 {
-	color: #7555a2;
+	color: #18207b;
 	margin-left: 7px;
 }
 .logo a > div:last-child
@@ -381,7 +381,7 @@ section
 .main_nav ul li a:hover,
 .main_nav ul li.active a
 {
-	color: #7555a2;
+	color: #f5b222;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -399,7 +399,7 @@ section
 {
 	height: 46px;
 	border-radius: 20px;
-	background: #7555a2;
+	background: #f5b222;
 	padding-left: 40px;
 	padding-right: 36px;
 	line-height: 46px;
@@ -430,7 +430,7 @@ section
 }
 .social ul li:hover
 {
-	background: #7555a2;
+	background: #18207b;
 }
 .social ul li:hover a i
 {
@@ -484,6 +484,12 @@ section
 	padding-right: 7px;
 }
 
+.logok{
+	height: 150px;
+	width: 200px;
+	padding: 5px 0 12px 0;
+	margin-bottom: 3px;
+}
 /*********************************
 4. Menu
 *********************************/
@@ -495,7 +501,7 @@ section
 	right: -350px;
 	width: 350px;
 	height: 100vh;
-	background: #7555a2;
+	background: #464D95;
 	z-index: 102;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -567,7 +573,7 @@ section
 }
 .menu_close:hover div
 {
-    background: #1befc5;
+    background: #f5b222;
 }
 .menu_nav
 {
@@ -585,7 +591,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #1befc5;
+	color: #f5b222;
 }
 .menu_social
 {
@@ -654,7 +660,7 @@ section
 	font-size: 60px;
 	line-height: 1.2;
 	font-weight: 500;
-	color: #7555a2;
+	color: #18207b;
 }
 .home_text
 {
@@ -695,7 +701,7 @@ section
 	left: 9px;
 	width: 90px;
 	height: 118px;
-	background-color: #7555a2;
+	background-color: #18207b;
 	border-radius: 40px;
 	border: solid 2px #eaf2f5;
 }
@@ -736,7 +742,7 @@ section
 }
 .blog_post_title a:hover
 {
-	color: #7555a2;
+	color: #18207b;
 }
 .blog_post_info
 {
@@ -759,7 +765,7 @@ section
 }
 .blog_post_info ul li a:hover
 {
-	color: #96c948;
+	color: #f5b222;
 }
 .blog_post_text
 {
@@ -790,7 +796,7 @@ section
 .page_nav ul li.active a,
 .page_nav ul li a:hover
 {
-	color: #96c948;
+	color: #f5b222;
 }
 
 /*********************************
@@ -917,7 +923,7 @@ section
 }
 .footer_about_text
 {
-	margin-top: 42px;
+	margin-top: 22px;
 }
 .footer_about_text p
 {
@@ -932,7 +938,7 @@ section
 }
 .footer_contact
 {
-	padding-top: 40px;
+	padding-top: 52%;
 }
 .contact_list
 {
@@ -950,7 +956,7 @@ section
 }
 .footer_location
 {
-	padding-top: 40px;
+	padding-top: 52%;
 }
 .locations_list
 {
@@ -969,7 +975,7 @@ section
 {
 	font-size: 15px;
 	font-weight: 500;
-	color: #96c948;
+	color: #f5b222;
 }
 .location_text
 {
@@ -1024,5 +1030,57 @@ section
 }
 .footer_nav ul li a:hover
 {
-	color: #7555a2;
+	color: #f5b222;
+}
+
+footer .logok{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+}
+.col-lg-3 .opening_hours{
+	margin-top: 52%;
+}
+/************ media query ****************/
+@media (min-width:1200px) and (max-width:1218px) {
+	header .button_1 {
+	display: none !important;
+	}
+}
+
+@media (min-width:1200px) and (max-width:1323px) {
+	header .button_1 a{
+		display: inline-block;
+		padding-left: 2px ;
+		padding-right: 2px ;
+		font-size: 13px;
+	}
+}
+
+@media (min-width:1441px) and (max-width:1535px) {
+	header .button_1 a{
+		padding-left: 2px ;
+		padding-right: 2px ;
+		font-size: 10px;
+	}
+}
+
+@media (min-width:1441px) and (max-width:1450px){
+	header .header_phone {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+@media (max-width:1200px) {
+	.home_container{
+		left: 0% !important;
+	}
+}
+
+@media (max-width:590px) {
+	.home_slider_custom_dot{
+		display: flex;
+		justify-content: center !important;
+	}
 }

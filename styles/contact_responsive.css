@@ -164,6 +164,10 @@
 	{
 		padding-top: 0;
 	}
+
+	.opening_hours{
+		margin-top: 0px !important;
+	}
 }
 
 /************
@@ -244,7 +248,11 @@
 	.header.scrolled .header_content,
 	.header_content
 	{
-		height: 60px;
+		height: 120px;
+	}
+	header .logok{
+		width: 150px;
+		height: 120px;
 	}
 	.home
 	{
@@ -378,4 +386,65 @@
 @media only screen and (max-width: 400px)
 {
 	
+}
+
+
+@media only screen and (max-width: 499px)
+{
+
+	.button a{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.menu{
+		width: 300px;
+	}
+	.contact_form_title {
+		width: 330px;
+	}
+
+}
+
+
+/************
+13. 320px
+************/
+
+@media only screen and (max-width: 320px)
+{
+	
+	.button a{
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.menu{
+		width: 300px;
+	}
+
+	.contact_form_title {
+		width: 288px ;
+	}
+}
+
+/************
+14. 400px
+************/
+
+@media only screen and (max-width: 280px)
+{
+	.button a{
+		padding-left: 8px;
+		padding-right: 8px;
+		font-size: 10px;
+	}
+
+	.menu{
+		width: 250px;
+	}
+
+	
+	.contact_form_title {
+		width: 249px ;
+		font-size: 20px;
+	}
 }
