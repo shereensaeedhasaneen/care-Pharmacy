@@ -203,7 +203,6 @@ $(document).ready(function() {
         }
     }
 
-    console.log('test');
     // carousel 
     $('.surgeon-owl-carousel').owlCarousel({
         loop: true,
