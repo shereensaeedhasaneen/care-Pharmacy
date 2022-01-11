@@ -705,7 +705,7 @@ section {
 .intro {
     background: #FFFFFF;
     padding-top: 67px;
-    padding-bottom: 91px;
+    /* padding-bottom: 91px; */
 }
 
 .intro_image {
