@@ -407,7 +407,7 @@ section {
 
 .main_nav ul li a:hover,
 .main_nav ul li.active a {
-    color: #f5b222;
+    color: #F5B222;
 }
 
 .main_nav ul li:not(:last-child) {
@@ -425,7 +425,7 @@ section {
 .header_phone {
     height: 46px;
     border-radius: 20px;
-    background: #f5b222;
+    background: #F5B222;
     padding-left: 40px;
     padding-right: 36px;
     line-height: 46px;
@@ -456,7 +456,7 @@ section {
 }
 
 .social ul li:hover {
-    background: #18207B;
+    background: #18207b;
 }
 
 .social ul li:hover a i {
@@ -852,6 +852,9 @@ section {
     height: 8px;
     margin: 4px;
 }
+.team .owl-dot{
+    outline: none !important;
+}
 
 
 /*********************************
@@ -1184,9 +1187,14 @@ footer .logok {
 }
 
 .col-lg-3 .opening_hours {
-    margin-top: 52%;
+    margin-top: 36% /*52%;*/
 }
 
+.newsletter_button:hover{
+    background-color: #fff;
+    color: #000;
+   /*border: 1px solid #000;*/
+}
 
 /************ media query ****************/
 

@@ -68,7 +68,7 @@ p {
     font-size: 14px;
     line-height: 2.14;
     font-weight: 500;
-    color: #828282;
+    color: #121212;
     -webkit-font-smoothing: antialiased;
     -webkit-text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
@@ -533,7 +533,7 @@ section {
     right: -350px;
     width: 350px;
     height: 100vh;
-    background: #a17fcf;
+    background: #464D95;
     z-index: 102;
     padding-left: 30px;
     padding-right: 30px;
@@ -605,7 +605,7 @@ section {
 }
 
 .menu_close:hover div {
-    background: #18207B;
+    background: #F5B222;
 }
 
 .menu_nav {
@@ -659,7 +659,6 @@ section {
     color: #FFFFFF;
 }
 
-
 /*********************************
 5. Home
 *********************************/
@@ -712,6 +711,11 @@ section {
 
 .home_text {
     margin-top: 11px;
+   
+}
+.home_text .slider-text{
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .home_buttons {
@@ -1355,10 +1359,14 @@ footer .logok {
 }
 
 .col-lg-3 .opening_hours {
-    margin-top: 52%;
+    margin-top: 36%;
 }
 
-
+.newsletter_button:hover{
+    background-color: #fff;
+    color: #000;
+   /*border: 1px solid #000;*/
+}
 /************ media query ****************/
 
 @media (min-width:1200px) and (max-width:1218px) {
